@@ -24,3 +24,32 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+/* Add this to your globals.css */
+
+@layer base {
+  html, body {
+    /* 1. Prevents mobile browsers from automatically adjusting text size */
+    -webkit-text-size-adjust: 100%;
+    
+    /* 2. Forces a light mode (or dark) background to prevent "guessing" */
+    background-color: #ffffff; 
+    color: #000000;
+  }
+
+  button, input, textarea {
+    /* 3. Removes the weird grey/rounded default styling on iOS */
+    -webkit-appearance: none;
+    appearance: none;
+    border-radius: 0;
+    background-color: transparent;
+  }
+}
+
+/* 4. Disable forced Dark Mode if you haven't designed for it yet */
+@media (prefers-color-scheme: dark) {
+  body {
+    /* If you want to ignore the user's phone dark mode setting: */
+    background-color: #ffffff !important;
+    color: #000000 !important;
+  }
+}
