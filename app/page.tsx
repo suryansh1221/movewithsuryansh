@@ -70,23 +70,25 @@ export default function Home() {
 
             <div className="space-y-6 text-slate-600 font-light text-lg leading-relaxed">
               <p>
-                MoveWithSuryansh is not a dance class. It’s a movement experience
-                designed for modern professionals dealing with long hours,
-                physical fatigue, and mental overload.
+                MoveWithSuryansh is not a dance class. It’s a movement experience designed for
+                modern professionals dealing with long hours, physical fatigue, and mental
+                overload.
               </p>
 
               <p>
-                Led by Suryansh — dancer, creator, and movement facilitator —
-                sessions focus on recovery, mobility, and release rather than
-                performance or intensity.
+                Led by Suryansh — a movement facilitator with over <strong>8 years of
+                corporate software engineering experience</strong> — these sessions are built
+                with a deep understanding of workplace pressure, screen-heavy routines, and
+                burnout culture.
               </p>
 
               <p>
-                The goal is simple: help people feel better in their bodies during
-                the workday — without changing clothes, learning steps, or pushing
-                limits.
+                Instead of performance or intensity, the focus is on recovery, mobility, and
+                simple movement resets that fit naturally into the workday — no change of
+                clothes, no learning steps, no disruption.
               </p>
             </div>
+
           </div>
 
           {/* IMAGE PLACEHOLDER */}
