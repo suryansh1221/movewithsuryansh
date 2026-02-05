@@ -55,6 +55,56 @@ export default function Home() {
         </div>
       </section>
 
+      {/* ABOUT */}
+      <section className="py-24 px-6 bg-white">
+        <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-16 items-center">
+          {/* TEXT */}
+          <div>
+            <h2 className="uppercase tracking-[0.25em] text-xs text-slate-400 mb-6">
+              About
+            </h2>
+
+            <h3 className="font-playfair text-4xl text-slate-800 italic mb-8 leading-snug">
+              Movement beyond <br className="hidden md:block" /> choreography.
+            </h3>
+
+            <div className="space-y-6 text-slate-600 font-light text-lg leading-relaxed">
+              <p>
+                MoveWithSuryansh is not a dance class. It’s a movement experience
+                designed for modern professionals dealing with long hours,
+                physical fatigue, and mental overload.
+              </p>
+
+              <p>
+                Led by Suryansh — dancer, creator, and movement facilitator —
+                sessions focus on recovery, mobility, and release rather than
+                performance or intensity.
+              </p>
+
+              <p>
+                The goal is simple: help people feel better in their bodies during
+                the workday — without changing clothes, learning steps, or pushing
+                limits.
+              </p>
+            </div>
+          </div>
+
+          {/* IMAGE PLACEHOLDER */}
+          <div className="flex justify-center">
+            <div className="relative w-[280px] h-[380px] md:w-[340px] md:h-[460px] bg-slate-100 border border-slate-200 overflow-hidden">
+              {/* Replace image when ready */}
+              <Image
+                src="/suryansh.jpg"
+                alt="Suryansh - MoveWithSuryansh"
+                fill
+                className="object-cover"
+                priority
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* CORE PILLARS */}
       <section className="py-24 px-6 max-w-6xl mx-auto grid md:grid-cols-3 gap-16">
         <div className="text-center group">
@@ -94,7 +144,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* FORMAT (NO BREAKDOWN) */}
+      {/* FORMAT */}
       <section className="py-24 px-6 bg-white">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="uppercase tracking-[0.25em] text-xs text-slate-400 mb-4">
@@ -107,58 +157,6 @@ export default function Home() {
             Designed to fit seamlessly into the workday — offering movement
             without disruption, instruction overload, or performance pressure.
           </p>
-
-          <div className="mt-12 flex flex-wrap justify-center gap-6 text-xs uppercase tracking-widest text-slate-500">
-            <span>No mats</span>
-            <span>•</span>
-            <span>No change of clothes</span>
-            <span>•</span>
-            <span>No fitness level required</span>
-            <span>•</span>
-            <span>In-office or online</span>
-          </div>
-        </div>
-      </section>
-
-      {/* WHO IT'S FOR */}
-      <section className="py-24 px-6 bg-[#F8F9F8]">
-        <div className="max-w-4xl mx-auto text-center mb-16">
-          <h2 className="uppercase tracking-[0.25em] text-xs text-slate-400 mb-4">
-            Designed For
-          </h2>
-          <h3 className="font-playfair text-4xl text-slate-800 italic">
-            Modern Work Environments
-          </h3>
-        </div>
-
-        <div className="max-w-3xl mx-auto grid md:grid-cols-2 gap-12 text-slate-600 font-light">
-          <p>• Corporate teams with long screen hours</p>
-          <p>• Startups operating under high pressure</p>
-          <p>• Founders and leadership teams</p>
-          <p>• Coworking communities and shared offices</p>
-        </div>
-      </section>
-
-      {/* INITIATIVE */}
-      <section className="bg-[#F2F3F2] py-24 px-6">
-        <div className="max-w-4xl mx-auto bg-white p-12 shadow-sm border border-slate-100">
-          <h2 className="font-playfair text-3xl mb-8 text-center text-slate-800">
-            The Initiative
-          </h2>
-          <div className="space-y-8 max-w-2xl mx-auto text-slate-600 font-light text-lg">
-            <p>
-              <strong>Designed for the Office:</strong> Sessions happen in
-              boardrooms or workspaces. No logistics required.
-            </p>
-            <p>
-              <strong>Science-Backed:</strong> Focused on mobility and recovery
-              techniques that support sustained focus.
-            </p>
-            <p>
-              <strong>Accessible:</strong> Suitable for all roles and seniority
-              levels.
-            </p>
-          </div>
         </div>
       </section>
 
@@ -170,26 +168,17 @@ export default function Home() {
         <p className="font-playfair text-3xl text-slate-800 mb-10 italic">
           Let’s move towards a better workday.
         </p>
-        <div className="border border-slate-200 inline-block p-10 bg-[#FBFBFB]">
-          <p className="text-sm uppercase tracking-widest text-slate-500 mb-4 font-semibold">
-            Free Pilot Sessions Open
-          </p>
-          <a
-            href="mailto:movewithsuryansh@gmail.com"
-            className="text-xl font-light text-slate-800 underline decoration-slate-300 underline-offset-8"
-          >
-            movewithsuryansh@gmail.com
-          </a>
-          <p className="mt-6 text-xs text-slate-400">
-            Limited slots available for Delhi / NCR offices
-          </p>
-        </div>
+        <a
+          href="mailto:movewithsuryansh@gmail.com"
+          className="text-xl font-light text-slate-800 underline decoration-slate-300 underline-offset-8"
+        >
+          movewithsuryansh@gmail.com
+        </a>
       </section>
 
       <footer className="py-10 text-center border-t border-slate-100">
         <p className="text-[10px] uppercase tracking-[0.4em] text-slate-400">
-          © 2026 MoveWithSuryansh · Movement · Physical Recovery · Workplace
-          Wellness
+          © 2026 MoveWithSuryansh · Movement · Physical Recovery · Workplace Wellness
         </p>
       </footer>
     </main>
