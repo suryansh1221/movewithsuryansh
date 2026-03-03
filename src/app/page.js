@@ -112,6 +112,15 @@ const skills = [
   "Testing",
 ];
 
+const buildFocus = [
+  "Data-rich dashboards and admin panels for operations, analytics, and decision-making.",
+  "Conversion-focused booking and checkout experiences with low-friction payment journeys.",
+  "GraphQL-powered frontend applications with scalable data fetching and clean state management.",
+  "High-performance Next.js applications optimized for Core Web Vitals and SEO.",
+  "Cross-platform mobile applications for iOS and Android with a consistent product experience.",
+  "End-to-end product delivery across frontend, backend, APIs, and production deployment.",
+];
+
 const profileLinks = {
   github: "https://github.com/surayans-tiwari",
   resume:
@@ -132,6 +141,7 @@ export default function Home() {
           <nav className={styles.links}>
             <a href="#about">About</a>
             <a href="#skills">Skills</a>
+            <a href="#build">What I Build</a>
             <a href="#portfolio">Portfolio</a>
             <a href="#contact">Contact</a>
           </nav>
@@ -202,8 +212,20 @@ export default function Home() {
           </div>
         </section>
 
-        <section id="portfolio" className={styles.section}>
+        <section id="build" className={styles.section}>
           <p className={styles.sectionIndex}>(03)</p>
+          <h2>What I Build</h2>
+          <div className={styles.buildGrid}>
+            {buildFocus.map((item) => (
+              <article key={item} className={styles.buildCard}>
+                {item}
+              </article>
+            ))}
+          </div>
+        </section>
+
+        <section id="portfolio" className={styles.section}>
+          <p className={styles.sectionIndex}>(04)</p>
           <h2>Portfolio Highlights</h2>
           <p className={styles.sectionIntro}>
             Representative website snapshots from brands where I contributed to
@@ -271,7 +293,7 @@ export default function Home() {
         </section>
 
         <section id="contact" className={`${styles.section} ${styles.contact}`}>
-          <p className={styles.sectionIndex}>(04)</p>
+          <p className={styles.sectionIndex}>(05)</p>
           <h2>Let&apos;s build something impactful</h2>
           <p>
             If you are hiring for frontend roles or need help building web

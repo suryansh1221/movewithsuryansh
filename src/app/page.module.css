@@ -235,6 +235,22 @@ a.secondary {
   margin-bottom: 14px;
 }
 
+.buildGrid {
+  margin-top: 14px;
+  display: grid;
+  gap: 10px;
+}
+
+.buildCard {
+  border: 1px solid rgba(148, 163, 184, 0.24);
+  background: rgba(30, 41, 59, 0.55);
+  border-radius: 10px;
+  padding: 11px 13px;
+  color: #dbe3f1;
+  line-height: 1.65;
+  font-size: 0.92rem;
+}
+
 .workGrid {
   margin-top: 14px;
   display: grid;
