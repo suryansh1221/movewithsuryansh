@@ -159,8 +159,10 @@ export default function Home() {
                 </span>
               </h1>
               <p className={styles.subtitle}>
-                I create high-performance, scalable, and user-friendly
-                interfaces. I have contributed to digital products for Wayfair,
+                I bring 9+ years of experience building digital products
+                end-to-end, from product discovery and frontend architecture to
+                backend integration and production delivery across web, iOS, and
+                Android platforms. I have contributed to products at Wayfair,
                 BookMyShow, and Apollo Pharmacy.
               </p>
               <div className={styles.ctas}>
@@ -194,9 +196,11 @@ export default function Home() {
           <p className={styles.sectionIndex}>(01)</p>
           <h2>About Me</h2>
           <p>
-            I am a frontend-focused engineer who turns complex requirements into
-            elegant and reliable product experiences. I care deeply about
-            usability, maintainability, and measurable business impact.
+            I am a product-focused engineer with 9+ years of hands-on
+            experience delivering full-stack web and app experiences. I turn
+            complex requirements into elegant, reliable products and focus on
+            usability, maintainability, and measurable business outcomes across
+            multiple platforms.
           </p>
         </section>
 
